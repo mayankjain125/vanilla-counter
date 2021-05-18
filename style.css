@@ -1,0 +1,35 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.heading{
+    font-size: 40px;
+    background-color: cornflowerblue;   
+    text-align: center;
+}
+.value{
+    font-size: 65px;
+    font-weight:bold;
+    text-align: center;
+    background-color:khaki;
+}
+.btn{
+    display:flex;
+    justify-content: center;
+    margin:30px;
+}
+.reset , .decrease , .increase{
+    width:100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.decrease{
+    background-color: red;
+}
+.increase{
+    background-color: green;
+}
